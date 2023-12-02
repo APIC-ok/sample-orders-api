@@ -13,9 +13,9 @@ jobs:
     - name: Deploy API to Sandbox
       uses: ibm-apiconnect/actions@main
       with:
-        manager-host: api-manager.us-east-a.apiconnect.automation.ibm.com
-        api-host: platform-api.us-east-a.apiconnect.automation.ibm.com
-        provider-org: 'demo'
+        manager-host: apim-demo-mgmt-api-manager-tools.apps.655bf07f2a7c140018583f32.cloud.techzone.ibm.com
+        api-host: apim-demo-mgmt-platform-api-tools.apps.655bf07f2a7c140018583f32.cloud.techzone.ibm.com/
+        provider-org: 'ibm-test-porg'
         catalog: 'sandbox'
         apikey: ${{ secrets.apikey }}
         product-file: 'product.yaml'
@@ -47,9 +47,9 @@ jobs:
     - name: Deploy API to Showcase
       uses: ibm-apiconnect/actions@main
       with:
-        manager-host: api-manager.us-east-a.apiconnect.automation.ibm.com
-        api-host: platform-api.us-east-a.apiconnect.automation.ibm.com
-        provider-org: 'demo'
+        manager-host: apim-demo-mgmt-api-manager-tools.apps.655bf07f2a7c140018583f32.cloud.techzone.ibm.com
+        api-host: apim-demo-mgmt-platform-api-tools.apps.655bf07f2a7c140018583f32.cloud.techzone.ibm.com/
+        provider-org: 'ibm-test-porg'
         catalog: 'showcase'
         apikey: ${{ secrets.apikey }}
         product-file: 'product.yaml'
