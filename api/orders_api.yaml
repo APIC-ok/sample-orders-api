@@ -2,7 +2,7 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: Order
+  title: Order v2
   x-ibm-name: ibm-sample-order-api
   description: View and track your orders and deliveries.
   termsOfService: 'This API is provided as a sample with no associated guarantees.  '
